@@ -19,8 +19,6 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data (optional – adjust as needed)
-data/raw/
-data/interim/
-data/processed/
+# Datasets
+Datasets/*.csv
 
