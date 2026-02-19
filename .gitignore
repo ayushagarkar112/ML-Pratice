@@ -1,24 +1,43 @@
+# ================================
 # Python
+# ================================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Virtual Environment
-mlpratice/
+# ================================
+# Virtual Environments
+# ================================
+.venv/
 venv/
+env/
+ENV/
 .env/
 
-# Jupyter
+# ================================
+# Jupyter Notebook
+# ================================
 .ipynb_checkpoints/
 
+# ================================
 # VS Code
+# ================================
 .vscode/
 
-# OS files
+# ================================
+# OS Files
+# ================================
 .DS_Store
 Thumbs.db
 
-# Datasets
+# ================================
+# Large / Raw Datasets
+# ================================
 Datasets/*.csv
 
+# ================================
+# Optional: Ignore experiment outputs (uncomment if needed)
+# ================================
+# Reinforcenment_Learning/*.ipynb
+# *.log
+# *.tmp
